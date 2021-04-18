@@ -1,0 +1,16 @@
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    position: absolute;
+    bottom: 0;
+}
+.hello--top--title{
+    text-align: center;
+}
+.hello--message{
+    width: auto;
+}
+.hello--time{
+    width: auto;
+}
