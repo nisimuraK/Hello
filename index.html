@@ -3,24 +3,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width" />
 <head>
-<title>konkon</title>
+<title>Web自動あいさつ</title>
+<link href="../Hello/css/all.css" rel="stylesheet">
+<link href="../Hello/css/index.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;1,200&family=PT+Sans:ital@1&display=swap" rel="stylesheet">
     </head>
-    <style>
-        html,body{
-            background-color: #cbc5c0;
-        }
-        footer{
-            width: 100%;
-            text-align: center;
-            padding: 30px 0;
-            position: absolute;
-            bottom: 0;
-        }
-    </style>
     <body>
-    
-        <h1>自動あいさつ</h1>
-
+    <div class="hello--top--title">
+        <h1>Web Greeting</h1>
+        </div>
+        <div class="hello--message">
+            <div class="hello--time">
+    <p>[メッセージ変更時間]</p>
         <script type="text/javascript">
             
             var msg1 = '<b>05→09</b> <br><br> おはようございます🌿';
@@ -56,6 +51,8 @@
                 document.write(msg7);
             }
         </script>
+        </div>
+        </div>
         <footer>
         <p>©︎ 2021 NisimuraK.</p>
         </footer>
